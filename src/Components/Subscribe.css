@@ -1,0 +1,112 @@
+.Subscribe_conainer {
+  width: 1000px;
+  background-color: #413dee;
+  padding: 77px 200px 40px 200px;
+  margin: auto;
+  border-radius: 15px;
+  margin-left: 150px;
+  margin-right: 170px;
+}
+.subtxt {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.subscribe_head {
+  font-family: "Heldane Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 70px;
+  /* identical to box height, or 140% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.inputButton {
+  width: 411px;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  /* margin-left: 153px; */
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.input {
+  width: 451px;
+  border: none;
+  border-radius: 25px;
+  margin: 0px;
+  width: 100%;
+  outline: none;
+  height: 30px;
+  padding: 8%;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  color: #979797;
+}
+.button {
+ width: 150px;
+  background-color: #413dee;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  z-index: 2;
+  border: none;
+  top: 2px;
+  padding: 2% 9%;
+  cursor: pointer;
+  color: white;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  margin: 2% 2% 2% 4%;
+}
+
+@media only screen and (max-width: 1130px) {
+    .Subscribe_conainer {
+        width: auto;
+        margin: auto;
+        padding: auto;
+      }
+      .input{
+        height: 43px;
+      }
+      .inputButton{
+        width: max-content;
+        
+        margin: auto;
+
+      }
+      .button{
+        width: auto;
+        margin: auto;
+      }
+}
+@media only screen and (max-width: 564px) {
+    
+     .Subscribe_conainer{
+       margin: auto;
+     }
+      .button{
+        width: auto;
+        margin: auto;
+      }
+}

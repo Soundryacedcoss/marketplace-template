@@ -1,0 +1,68 @@
+.Hero_container {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  column-gap: 160px;
+
+  padding: 50px 0px 50px 35px;
+}
+.heroImg {
+  width: 615px;
+}
+.Content {
+  width: 350px;
+  margin-top: 155px;
+}
+.Hightlight {
+  font-family: "Heldane Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 80px;
+}
+@media only screen and (max-width: 1116px) {
+  .Hero_container {
+    width: auto;
+    margin: auto;
+    column-gap: 5%;
+  }
+
+  .heroImg {
+    height: auto;
+    margin-right: 1em;
+  }
+}
+@media only screen and (max-width: 870px) {
+  .Hero_container {
+    width: auto;
+    margin: auto;
+    column-gap: 5%;
+  }
+  .heroImg {
+    width: 50%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Hero_container {
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    display: grid;
+  }
+  .Content {
+    width: auto;
+    margin: 2em;
+  }
+  .Hightlight {
+    width: auto;
+  }
+  .explorebutton {
+    background: #413dee;
+  }
+  .heroImg {
+    width: 95%;
+    height: auto;
+    margin-right: 2%;
+  }
+}
