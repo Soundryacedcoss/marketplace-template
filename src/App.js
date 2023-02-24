@@ -1,10 +1,10 @@
 import "./App.css";
-import { CardContainer } from "./Components/CardContainer";
-import { Footer } from "./Components/Footer";
-import { Header } from "./Components/Header";
-import { HeroContainer } from "./Components/HeroContainer";
-import { Subscribe } from "./Components/Subscribe";
-import { TopDeal } from "./Components/TopDeal";
+import { CardContainer } from "./components/CardContainer";
+import { Footer } from "./components/Footer";
+import { Header } from "./components/Header";
+import { HeroContainer } from "./components/HeroContainer";
+import { Subscribe } from "./components/Subscribe";
+import { TopDeal } from "./components/TopDeal";
 
 function App() {
   return (
