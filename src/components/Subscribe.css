@@ -1,11 +1,9 @@
 .Subscribe_conainer {
-  width: 1000px;
+  width: 1140px;
   background-color: #413dee;
-  padding: 77px 200px 40px 200px;
+  padding: 77px 49px 40px 49px;
   margin: auto;
   border-radius: 15px;
-  margin-left: 150px;
-  margin-right: 170px;
 }
 .subtxt {
   font-family: "DM Sans";
@@ -59,7 +57,7 @@
   color: #979797;
 }
 .button {
- width: 150px;
+  width: 150px;
   background-color: #413dee;
   border: none;
   position: absolute;
@@ -81,32 +79,30 @@
 }
 
 @media only screen and (max-width: 1130px) {
-    .Subscribe_conainer {
-        width: auto;
-        margin: auto;
-        padding: auto;
-      }
-      .input{
-        height: 43px;
-      }
-      .inputButton{
-        width: max-content;
-        
-        margin: auto;
+  .Subscribe_conainer {
+    width: auto;
+    margin: auto;
+    padding: auto;
+  }
+  .input {
+    height: 43px;
+  }
+  .inputButton {
+    width: max-content;
 
-      }
-      .button{
-        width: auto;
-        margin: auto;
-      }
+    margin: auto;
+  }
+  .button {
+    width: auto;
+    margin: auto;
+  }
 }
 @media only screen and (max-width: 564px) {
-    
-     .Subscribe_conainer{
-       margin: auto;
-     }
-      .button{
-        width: auto;
-        margin: auto;
-      }
+  .Subscribe_conainer {
+    margin: auto;
+  }
+  .button {
+    width: auto;
+    margin: auto;
+  }
 }
